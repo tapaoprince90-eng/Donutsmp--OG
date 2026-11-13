@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "donutauth",
+  "version": "1.0.0",
+  "name": "DonutAuth",
+  "description": "DonutSMP Style Register & Login Mod for Fabric 1.21.1",
+  "authors": [
+    "DonutAuth"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.donut.auth.DonutAuthMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
